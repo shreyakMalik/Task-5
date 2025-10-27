@@ -1,7 +1,7 @@
 # DevOps Task 5 — Kubernetes with Minikube
 
 ## Overview
-This project demonstrates setting up a local Kubernetes cluster using Minikube, deploying an Nginx app, exposing it as a service, and scaling it.
+This project demonstrates setting up a local Kubernetes cluster using Minikube, deploying in an Nginx app, exposing it as a service, and scaling it.
 
 ## Steps
 1. Installed and started Minikube.
@@ -17,10 +17,3 @@ This project demonstrates setting up a local Kubernetes cluster using Minikube, 
 - `kubectl get pods`
 - `kubectl scale deployment nginx-deployment --replicas=4`
 - `kubectl describe deployment nginx-deployment`
-
-## Output
-Screenshots included:
-- Cluster running
-- Pods list
-- Service exposed
-- Scaled deployment
